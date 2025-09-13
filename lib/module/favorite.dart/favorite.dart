@@ -27,6 +27,7 @@ class Favorite extends StatelessWidget {
                 
                 ),
             body: HandlingDataRequst(
+              
               statusRequest: cubit.statusRequest,
               textNodata: "المفضلة فارغة",
               widget: Container(
